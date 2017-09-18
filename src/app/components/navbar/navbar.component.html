@@ -1,0 +1,33 @@
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+		  <a class="navbar-brand" [routerLink]="['/']">
+		    <img src="assets/img/Logo-Hiperion-White.png" height="40" alt="Logotipo Hiperion Technologies">
+		  </a>
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto mr-auto">
+		      <li class="nav-item" routerLinkActive="active">
+		        <a class="nav-link" [routerLink]="['/acerca-de-hiperion']">Acerca de</a>
+		      </li>
+		      <li class="nav-item dropdown">
+			    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Soluciones <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			    <div class="dropdown-menu">
+			      <a class="dropdown-item" routerLinkActive="active" [routerLink]="['/inteligencia-artificial']">Visión Artificial (AVA)</a>
+			      <a class="dropdown-item" routerLinkActive="active" [routerLink]="['/internet-de-las-cosas']">IOT (Internet of Things)</a>
+			      <a class="dropdown-item" routerLinkActive="active" [routerLink]="['/domotica']">Domótica</a>
+			      <a class="dropdown-item" routerLinkActive="active" [routerLink]="['/desarrollo-web']">Desarrollo Web</a>
+			      <a class="dropdown-item" routerLinkActive="active" [routerLink]="['/desarrollo-de-aplicaciones']">Aplicaciones Móviles</a>
+			      <a class="dropdown-item" routerLinkActive="active" [routerLink]="['/amazon-web-services']">Amazon Web Services</a>
+			    </div>
+			  </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="http://blog.hiperion-tech.com">Blog</a>
+		      </li>
+		    </ul>
+		    <a class="btn btn-blue" [routerLink]="['/contacto']">Contáctanos</a>
+		  </div>
+		</nav>
+	</div>

@@ -1,1 +1,671 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+	font-family: 'Muli', sans-serif;
+	color: #767777;
+}
+
+.header-bg{
+	background: url("assets/img/bg.png") center center, linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg-about{
+	background: url("assets/img/bg.png") center center, linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg-development{
+	background:linear-gradient(-45deg,#01ccf3,#1870e5);
+	height: 600px;
+}
+.header-bg-movil{
+	background:linear-gradient(-45deg,#01ccf3,#1870e5);
+	height: 600px;
+}
+.header-bg-aws{
+	background: url("assets/img/bg-aws.png") center bottom ,linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg-ia{
+	background: url("assets/img/bg-ia.png") center bottom ,linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg-iot{
+	background: url("assets/img/bg-iot.png") center center ,linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg-domotica{
+	background: url("assets/img/bg-domotica.png") center center ,linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-bg-contact{
+	background: url("assets/img/bg-map.png") center center ,linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: 730;
+	height: auto;
+}
+/*NOT FOUND */
+
+.not-found{
+	background:linear-gradient(-45deg,#01ccf3,#1870e5);
+	height: 100vh;
+}
+.not-found .container,
+.not-found .container .row{
+	height: 100%;
+}
+.not-found h1{
+	font-size: 8rem;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.not-found p{
+	color:#fff;
+}
+.not-found p span{
+	font-size: 3rem;
+	font-weight: 700;
+}
+.bg-transparent{
+	background-color: transparent;
+}
+.nav-link{
+	color: #fff !important;
+	transition: all .3s ease;
+}
+.nav-link:hover{
+	opacity: .5;
+}
+.active{
+	opacity: .5;
+}
+.dropdown-item.active{
+    color: #1cccf3;
+    opacity: 1;
+    text-decoration: none;
+    background-color: transparent;
+}
+.dropdown-menu{
+	padding: 20px 10px;
+}
+.navbar-toggler span .fa{
+	font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+.navbar-toggler{
+	border: none;
+}
+.ia img{
+	width: 450px;
+}
+figure{
+	margin: 0px;
+}
+h1{
+	color:#fff;
+	margin-bottom: 30px;
+	line-height: 1.3;
+	font-weight: 300;
+}
+h1 span{
+	font-weight: 700;
+}
+.title-page{
+	font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.subtitle-page{
+	font-size: 2.5rem;
+	color: #fff;
+	margin-bottom: 30px;
+	line-height: 1.3;
+}
+.padd-header{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.padd-section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.padd-section-min{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.padd-section-no-bottom{
+	padding-top: 100px;
+}
+.padd-section-no-top{
+	padding-bottom: 100px;
+}
+.padd-footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.padd-header p{
+	color: #fff;
+	margin-bottom: 30px;
+}
+.title-section{
+	margin-bottom: 80px;
+}
+.btn-blue{
+	font-weight: 600;
+	color: #fff;
+	border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 8px 30px;
+    cursor: pointer
+}
+.btn-normal{
+	font-weight: 600;
+	color: #fff;
+	border: 1px solid transparent;
+    background-color: #1cccf3;
+    border-radius: 50px;
+    padding:16px 40px;
+    cursor: pointer;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.2);
+}
+.btn-normal:hover{
+	color: #1cccf3;
+	border: 1px solid transparent;
+    background-color: transparent;
+}
+.btn-white{
+	font-weight: 600;
+	color: #1cccf3;
+	border: 1px solid transparent;
+    background-color: #fff;
+    border-radius: 50px;
+    padding:16px 40px;
+    cursor: pointer;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.2);
+}
+.btn-white:hover{
+	color: #fff;
+	border: 1px solid transparent;
+    background-color: #1cccf3;
+}
+.btn-gradient{
+	font-weight: 600;
+	color: #fff;
+    background: linear-gradient(-45deg,#01ccf3,#1870e5);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 8px 30px;
+    cursor: pointer
+}
+.btn-gradient:hover{
+	color: #1cccf3;
+    background:transparent;
+    border: 1px solid #1cccf3;
+}
+.btn-blue:hover{
+	color: #1cccf3;
+    background:#fff;
+    border: 1px solid transparent;
+}
+
+
+.title{
+	color: #1cccf3;
+	margin-bottom: 50px;
+}
+.title-black{
+	color: #767777;
+	margin-bottom: 40px;
+}
+
+.service-box .icon img{
+	max-width: 100px;
+}
+.service-box .icon{
+	margin-bottom: 20px;
+}
+.service-box{
+	margin-bottom: 65px;
+}
+.service-box .description{
+}
+
+.service-box .description h1{
+	color: #1cccf3;
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
+
+.why-black{
+	font-weight: 700;
+	line-height:1.5;
+	margin-bottom: 20px;
+}
+
+.wc img{
+	width: 400px;
+}
+.why-chosse p{
+	margin-bottom: 20px;
+}
+
+.contact-us{
+	background: url("assets/img/bg.png") center center, linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.start-with-us{
+	position: relative;
+}
+.start-with-us h1{
+	position: absolute;
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: .5px;
+    top: -45px;
+    opacity: .2;
+}
+.start-with-us button{
+	margin-top: 20px;
+}
+.contact-us .start-with-us h2{
+	color: #fff;
+	margin-bottom: 0;
+	line-height: 1.7;
+	font-size: 1.5rem;
+}
+
+
+
+.title-footer{
+	font-size: 18px;
+    margin-bottom: 10px;
+    color: #767777;
+}
+footer p .fa{
+	padding-right: 7px;
+}
+footer p{
+	margin-bottom: 10px;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+footer a .fa{
+	color: #767777;
+	font-size: 1.5rem;
+	opacity: .7;
+	padding-right: 10px;
+}
+footer a{
+	transition: all .3s ease;
+}
+footer a:hover{
+	opacity: .6;
+}
+footer a{
+	text-decoration: none;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #767777;
+}
+footer ul li a:hover{
+	opacity: .5;
+    text-decoration: none;
+}
+
+.subfooter p{
+	font-size: 13px;
+	letter-spacing: .3px;
+	margin-bottom: 20px;
+}
+
+
+/*ABOUT */
+
+.mision img{
+	width: 400px;
+}
+.vision img{
+	width: 400px;
+}
+.valores img{
+	width: 400px;
+}
+
+.color-1{
+	background-color: #1cccf3;
+}
+.color-2{
+	background-color: #18a4ec;
+}
+.color-3{
+	background-color: #1870e5;
+}
+.block-innovate{
+	padding:50px;
+	color: #fff;
+}
+.block-innovate h1{
+	font-size: 2rem;
+}
+.dropdown-menu{
+	background-color: rgba(255,255,255,1);
+	border:none;
+	border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+.dropdown-item:hover {
+    color:#1cccf3;
+    text-decoration: none;
+    background-color: transparent;
+}
+.dropdown-item{
+	color: #767777;
+}
+.dropdown-toggle::after {
+	content: none;
+}
+
+/*DEVELOPMENT */
+.development-web{
+}
+.development-web img{
+	max-width: 100%;
+	margin-top: -150px;
+}
+.development-web img{
+	max-width: 900px;
+}
+.block-benefits{
+	position: relative;
+	margin-bottom: 65px;
+}
+.block-benefits .description{
+	padding-left: 60px;
+}
+.block-benefits .description h1{
+	color: #767777;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+.block-benefits .description h2{
+	font-size: 1rem;
+}
+.block-benefits .icon{
+	position: absolute;
+
+}
+.block-benefits .icon .fa{
+	font-size: 2rem;
+	color: #1cccf3;
+}
+.block-benefits .icon img{
+	max-width: 40px;
+}
+
+.developmente-page img{
+	width: 500px;
+}
+.technology img{
+	width: 500px;
+}
+.methodology img{
+	width: 100%;
+}
+
+/* CONTACT US */
+
+
+.fc{
+	background-color: #fff;
+	padding: 50px;
+	margin-top: -220px;
+	
+}
+.box-info,
+.box-contact-us{
+	background-color: #fff;
+	padding: 50px 0px;
+	-webkit-box-shadow: 0 18px 32px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 18px 32px 0 rgba(0,0,0,.1);
+	box-shadow: 0 18px 32px 0 rgba(0,0,0,.1);
+	border-radius: 3px;
+}
+
+.box-info h1,
+.box-contact-us h1{
+	font-size: 2rem;
+	font-weight: 600;
+	color:#767777;
+}
+.box-info .body-contact-info .fa{
+	font-size: 3.5rem;
+	color:#1cccf3;
+	margin-bottom: 15px;
+}
+.body-contact-info .location,
+.body-contact-info .phone,
+.body-contact-info .email{
+}
+
+.social{
+	margin-top: 40px;
+}
+
+.social .fa{
+	font-size: 3rem;
+	color: #767777;
+	opacity: .3;
+	transition: all .3s ease
+}
+.social .fa:hover{
+	opacity: .6;
+}
+/*
+.form-contact .title-form .fa{
+	font-size: 1.5rem;
+	color:#1cccf3;
+}
+.contact .row{
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+}
+
+
+.form-contact label{
+	font-size: .9rem;
+	opacity: .7;
+}
+.form-contact .form-control{
+    color: #767777;
+    background-color: transparent;
+    border-right: none;
+    border-bottom: 1px solid #E5E8EA;
+    border-top: none;
+    border-left: none;
+    border-radius: 0;
+    transition: all .3s ease;
+}
+.form-contact .form-control:focus{
+	border-bottom: 1px solid #1cccf3; 
+}
+*/
+/* APP MOVIL */
+
+.app-movil img{
+	max-width: 600px;
+	margin-top: -150px;
+}
+.methodology-app img{
+	max-width: 100%;
+}
+
+.box-why{
+	margin-bottom: 65px;
+	overflow: hidden;
+}
+.box-why .description,
+.box-why .location,
+.box-why .phone,
+.box-why .description{
+	width: 80%;
+	float: left;
+}
+.box-why .description h1{
+	color: #767777;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+.box-why .icon{
+	float: left;
+	width: 20%;
+
+}
+.box-why .icon img{
+	max-width: 50px;
+}
+.box-why .icon .fa{
+	font-size: 40px;
+	color: #1cccf3;
+}
+/* AWS */
+
+.why-use figure img{
+	width: 100%;
+}
+.aws{
+	background: url("assets/img/bg-aws-banner.png") center bottom , #f90;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.what-is p{
+	font-size: 1.5rem;
+}
+
+/* INTELLIGENCE ARTIFICIAL */
+.what-is-ava p{
+	font-size: 1.5rem;
+}
+
+.video{
+	background: url("assets/img/bg.png") center center, linear-gradient(-45deg,#01ccf3,#1870e5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.video iframe{
+	max-width: 100%;
+}
+
+/* IoT */
+.what-is-iot p{
+	font-size: 1.5rem;
+}
+
+/* Domótica */
+.what-is-domotica p{
+	font-size: 1.5rem;
+}
+
+.decorator{
+	height: 1400px;
+    width: 1400px;
+    border-radius: 100px;
+    background: linear-gradient(-30deg,#01ccf3,#1870e5);
+    z-index: -3;
+    bottom: -212px;
+    left: -268px;
+    position: absolute;
+    transform: rotate(30deg);
+}
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+	}
+}
+
+@media (max-width: 768px){
+	.padd-header .btn-blue{
+		margin-bottom: 50px; 
+	}
+	.ia img{
+	width: 100%;
+	}
+	.why-choose img{
+	width: 100%;
+	margin-bottom: 50px;
+	}
+	.mision img{
+	width: 100%;
+	}
+	.vision img{
+		width: 100%;
+	}
+	.valores img{
+		width: 100%;
+	}
+	.developmente-page img{
+		width: 100%;
+		margin-bottom: 50px;
+	}.technology img{
+		width: 100%;
+	}
+	.development-web img{
+		max-width: 100%;
+	}
+	.bg-contact img{
+		width: 100%;
+	}
+	.app-movil img{
+		max-width: 100%;
+		margin-top: 0px;
+	}
+	.development-web img{
+		max-width: 100%;
+		margin-top: 0px;
+	}
+	.padd-section-no-top{
+		padding-top: 50px;
+	}
+	.header-bg-movil{
+		height: auto;
+	}
+	.header-bg-development{
+		height: auto;
+	}
+	.fc{
+		margin-top: 50px;
+	}
+	.start-with-us h1 {
+    	position: static;
+    	font-size: 2.5rem;
+    	font-weight: 600;
+    	letter-spacing: .5px;
+    	top: 0;
+    	opacity: .3;
+    }
+    .m-b-20{
+    	margin-bottom: 20px;
+    }
+    .header-bg, .header-bg-iot, .header-bg-about, .header-bg-aws, .header-bg-ia, .header-bg-domotica , .header-bg-contact{
+    	background: -webkit-linear-gradient(bottom left, #01ccf3, #1870e5);
+    	background: -o-linear-gradient(bottom left, #01ccf3, #1870e5);
+    	background: linear-gradient(to top right, #01ccf3, #1870e5);
+    }
+}
